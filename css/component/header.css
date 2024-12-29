@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 16px;
+}
+@media (width >= 50.625em) {
+  .header {
+    padding-block: 24px;
+  }
+}
